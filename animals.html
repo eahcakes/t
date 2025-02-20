@@ -1,0 +1,180 @@
+<html></html>
+    <head>
+        <style>
+            body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #5a1f0f;
+    padding-top: 80px; /* Adjust to match the navbar height */
+    }
+    h1,h2,h3,h4,h5,h6,p {
+        color: white;
+    }
+    img{
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(120%);
+    }
+    #title {
+        padding-left: 40px;
+        padding-top: 50px;
+    }
+    #title h2, #title h1, #title h3 {
+        margin: 0;
+        padding: 0;
+    }
+    #images {
+        padding-left: 0;
+        margin-top: 100px;
+        background-color: #8e4936;
+        text-align: center;
+        width: 100%;
+    }
+    #images h2, #images h3 {
+        margin: 0;
+        padding: 0;
+    }
+    .images-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        padding: 20px 10px;
+        box-sizing: border-box;
+    }
+    .images-row img {
+        width: 32%;
+        height: auto;
+        border-radius: 10px;
+    }
+    @media (max-width: 768px) {
+        .images-row {
+            flex-direction: column;
+            align-items: center;
+        }
+        .images-row img {
+            width: 80%;
+            margin-bottom: 20px;
+        }
+    }
+    #contact {
+        margin-top: 100px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .contact-container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .contact-item {
+        text-align: center;
+        width: 250px;
+    }
+    .contact-item img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    h1 {
+        font-size: 150px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .topnav {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #a14e38;
+    overflow: hidden;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000; /* Ensures navbar stays on top */
+}
+
+.topnav img.logo {
+    height: 80px;
+    margin-right: 20px;
+}
+
+.topnav a {
+    color: #000000;
+    text-align: center;
+    padding: 24px 30px;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #00cb00;
+    color: white;
+}
+    .logo {
+        float: left;
+        height: 80px;
+        padding-right: 30px;
+        background-color: #a14e38;
+    }
+
+    /* Remove blue underline for links */
+    a {
+        text-decoration: none;
+    }
+
+    /* Styling for the icons */
+    .contact-icons {
+        font-size: 30px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .contact-icons i {
+        margin: 0 15px;
+        cursor: pointer;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <img class="logo" src="https://paws.org.ph/wp-content/uploads/2022/01/PAWS-New-Logo.png">
+            <a href="home.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="about.html">About</a>
+            <a href="donate.html">Donate</a>
+            <a href="animals.html"class="active">Animals</a>
+        </div>
+        <div id="images">
+            <h2 style="text-align: center; padding-top: 50px; margin-bottom: 50px;">Meet the animals!</h2>
+            <h3 style="margin-bottom: 10px;">Meet</h3>
+            <div class="images-row">
+                <img src="https://paws.org.ph/wp-content/uploads/2022/07/Meet-Our-Dogs.jpg" alt="Meet Our Dogs">
+                <img src="https://paws.org.ph/wp-content/uploads/2022/06/Dog-Volunteers.jpg" alt="Dog Volunteers">
+                <img src="https://paws.org.ph/wp-content/uploads/2022/12/Support-PAWS-e1672378143925.jpg" alt="Support PAWS">
+            </div>
+            <h2 style="margin-top: 10px; padding-bottom: 50px;">The Dogs</h2>
+        
+            <h2 style="margin-top: 50px; margin-bottom: 100px">And</h2>
+            <h3 style="margin-bottom: 10px;">Meet</h3>
+            <div class="images-row">
+                <img src="https://paws.org.ph/wp-content/uploads/2022/07/Meet-Our-Cats.jpg" alt="Meet Our Cats">
+                <img src="https://paws.org.ph/wp-content/uploads/2022/04/PAWS-Cattery-Home-e1663992376777.jpg" alt="PAWS Cattery">
+                <img src="https://paws.org.ph/wp-content/uploads/2024/05/Alice-2-1-e1719042275479.jpeg" alt="Alice">
+            </div>
+            <h2 style="margin-top: 10px; padding: 50px;">The Cats</h2>
+        </div>
+    </body>
+</html>

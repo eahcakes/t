@@ -1,0 +1,140 @@
+<html></html>
+    <head>
+        <style>
+            body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #5a1f0f;
+    padding-top: 80px; /* Adjust to match the navbar height */
+    }
+    h1,h2,h3,h4,h5,h6,p {
+        color: white;
+    }
+    img{
+        transition: transform 0.3s ease;
+    }
+    img:hover{
+        transform: scale(120%);
+    }
+    h2:hover{
+        transform: scale(102%);
+    }
+    h3:hover{
+        transform: scale(104%);
+    }
+    h2,h3{
+        transition: transform 0.3s ease;
+    }
+    #contact {
+        margin-top: 100px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .contact-container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .contact-item {
+        text-align: center;
+        width: 250px;
+    }
+    .contact-item img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    h2 {
+        font-size: 50px;
+        margin-left: 40;
+        margin-bottom: 0;
+        position: relative; /* Ensure it doesn't override navbar */
+    z-index: 10; /* Lower than navbar */
+    }
+    h1 {
+        font-size: 150px;
+    }
+    h3 {
+        font-size: 30px;
+        margin-left: 50PX;
+        margin-bottom: 100;
+        position: relative; /* Ensure it doesn't override navbar */
+    z-index: 10; /* Lower than navbar */
+    }
+    .topnav {
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #a14e38;
+        overflow: hidden;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        z-index: 1000; /* Higher than text */
+    }
+    .topnav img.logo {
+        height: 80px;
+        margin-right: 20px;
+    }
+    .topnav a {
+        color: #000000;
+        text-align: center;
+        padding: 24px 30px;
+        text-decoration: none;
+        font-size: 28px;
+    }
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    .topnav a.active {
+        background-color: #00cb00;
+        color: white;
+    }
+    .logo {
+        float: left;
+        height: 80px;
+        padding-right: 30px;
+        background-color: #a14e38;
+    }
+
+    /* Remove blue underline for links */
+    a {
+        text-decoration: none;
+    }
+
+    /* Styling for the icons */
+    .contact-icons {
+        font-size: 30px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .contact-icons i {
+        margin: 0 15px;
+        cursor: pointer;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <img class="logo" src="https://paws.org.ph/wp-content/uploads/2022/01/PAWS-New-Logo.png">
+            <a href="home.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="about.html"class="active">About</a>
+            <a href="donate.html">Donate</a>
+            <a href="animals.html">Animals</a>
+        </div>
+        <div style="background-color: #8e4936;padding-top: 50px;padding-bottom: 50px;margin-top: 50;">
+            <h2>Our Stand</h2>
+            <h3>PAWS takes a firm stand on matters relating to animal welfare, and continues to lobby for better laws to ensure humane treatment of all animals.</h3>
+            <h2>Our Programs</h2>
+            <h3>PAWS has developed programs designed to promote humane treatment of all animals. Contact us to learn how to participate in these programs.</h3>
+            <h2>Our Campaigns</h2>
+            <h3>In an effort to educate the Filipino people on responsible pet ownership, PAWS engages the advertising media with the help of its passionate supporters.</h3>
+
+        </div>
+    </body>
+</html>
